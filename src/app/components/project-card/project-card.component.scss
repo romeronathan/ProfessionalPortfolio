@@ -1,0 +1,24 @@
+.project-card {
+    text-align: center;
+    box-shadow: 0 0 15px rgb(99 114 130 / 30%);
+
+    border-radius: 5px;
+    background-color: white;
+    height: 400px;
+    width: 100%;
+
+}
+.project-card{
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+img {
+    max-width: 500px;
+    min-height: 200px;
+    object-fit: cover;
+}
+.img-holder {
+    width: 100%;
+    background-color: blue;
+   
+}
