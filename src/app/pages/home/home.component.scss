@@ -10,6 +10,9 @@
 
 
   }
+  .text-box {
+    animation: fadeIn 1s;
+  }
   .hero-info {
 
     width: 80vw;
@@ -68,8 +71,11 @@ button:hover {
 }
 .img-box {
   position: relative;
-}
 
+}
+.computer-img {
+  animation: computerAnim 1s;
+}
 
 h3 {
   font-family: "Raleway", sans-serif;
@@ -81,3 +87,13 @@ h3:hover {
   opacity: 0.5;
 }
 
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+   opacity: 1;
+  }
+}
