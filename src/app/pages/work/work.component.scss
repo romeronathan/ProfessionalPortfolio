@@ -1,12 +1,41 @@
+@import "../../../styles.scss";
+.work-box {
+ 
+    position: relative;
+  
+ 
+    vertical-align: middle;
+    background-color: #BBDFFA;
+    overflow: hidden;
+}
 h1 {
     font-size: 3.8rem;
     font-family: "Raleway", sans-serif;
     text-align: center;
+    padding-bottom: 15px;
   }
 .work-list {
-    display: flex;
-    width: 100%;
-    column-gap: 20px;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    margin: 0 auto;
+    @include small-screens {
+        display: flex;
+        flex-direction: column;
+    }
+    @include very-small-screens {
+        display: flex;
+        flex-direction: column;
+    }
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+    }
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+    }
 }
-  
   

@@ -19,6 +19,11 @@
       @content;
     }
   }
+  @mixin very-small-screens {
+    @media (max-width: 200px) {
+      @content;
+    }
+  }
   @mixin column-lg-break {
     @media (min-width: 0px) and (max-width: 992px) {
       @content;

@@ -1,24 +1,44 @@
+a {
+    text-decoration: none;
+    color: black;
+}
 .project-card {
     text-align: center;
-    box-shadow: 0 0 15px rgb(99 114 130 / 30%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: white;
-    height: 400px;
-    width: 100%;
+    min-height: 410px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.3s ease;
 
 }
-.project-card{
-    -webkit-box-flex: 1;
-    flex: 1;
+.project-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+
+
 img {
-    max-width: 500px;
-    min-height: 200px;
+    max-width: 100%;
+    border-radius: 8px;
     object-fit: cover;
 }
 .img-holder {
+
     width: 100%;
-    background-color: blue;
+    background-color: white;
    
+}
+.text-holder {
+    padding-top: 20px;
+    height: 100%;
+}
+h2 {
+ 
+        font-family: "Raleway", sans-serif;
+        font-size: 2rem;
+   
+        font-weight: bold;
 }

@@ -1,8 +1,9 @@
 
-
 <div class="work-box">
     <h1>My Work</h1>
-  <div class="row work-list">
-      <app-project-card class="col-lg" *ngFor="let item of projects"[project]="item"></app-project-card>
+  <div class="work-list">
+      <app-project-card class="project-item" *ngFor="let item of projects"[project]="item"></app-project-card>
   </div>
+  
+
 </div>

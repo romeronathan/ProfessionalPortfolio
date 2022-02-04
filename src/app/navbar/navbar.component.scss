@@ -4,7 +4,7 @@
 }
 .navbar {
   display: flex;
- position: absolute;
+  background-color: #BBDFFA;
   top: 0;
   height: 84px;
   max-width: 80vw !important;
@@ -93,9 +93,7 @@
   align-items: center;
   align-self: flex-end;
 
-  @include navbar-hamburger {
-    display: none;
-  }
+ 
 }
 
 
@@ -130,7 +128,7 @@ button{
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  transition: ease 0.3s;
+  transition: ease 0.4s;
 }
 button:hover {
 background: #fff;
