@@ -1,11 +1,10 @@
 
 
   .hero-box {
-    
-    position: relative;
+     position: relative;
    overflow: hidden;
     min-height:  100vh;
-    width: 100vw;
+    max-width: 95vw;
     margin: 0 auto;
 
 
@@ -17,8 +16,10 @@
   }
   .hero-info {
 
-    width: 80vw;
-    margin: 0 auto;
+    max-width: 95vw;
+    min-height: 50vh;
+    margin: 0 auto !important;
+   
 
 
   
@@ -31,8 +32,10 @@
     font-family: "Raleway", sans-serif;
   }
   h1 {
-    font-size: 3.8rem;
-    color: white;
+    font-size: 7rem;
+    color: white; 
+    font-weight: 500;
+    opacity: 0.8;
   }
   h2 {
     font-size: 1.9rem;

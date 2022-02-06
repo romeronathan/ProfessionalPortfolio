@@ -2,13 +2,15 @@
     padding: 0 !important;
     margin: 0 !important;
    
+
+}
+.hero-holder  {
+    background-color: black;
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 !important;
     background-image: url("../assets/images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-.hero-holder {
-    overflow: hidden;
-    padding: 0 !important;
-    margin: 0 !important;
 }
